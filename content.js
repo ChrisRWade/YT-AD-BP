@@ -22,7 +22,6 @@ function startObserver() {
               const playButton = document.querySelector(".ytp-play-button");
               if (playButton) playButton.click();
             }, 1000);
-            console.alert("WE GOT ONE");
           }
         });
       }
